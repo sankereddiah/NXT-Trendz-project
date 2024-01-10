@@ -1,0 +1,75 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.remove-para {
+  color: blue;
+  font-size: 17px;
+  font-family: 'Roboto';
+  align-self: flex-end;
+  cursor: pointer;
+}
+.cart-prize {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.prize {
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+}
+.cart-count {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.check-out {
+  background-color: blue;
+  font-size: 15px;
+  padding: 13px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.summary {
+  align-self: flex-end;
+}
