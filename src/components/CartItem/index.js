@@ -21,6 +21,7 @@ const CartItem = props => (
       const {id, title, brand, quantity, price, imageUrl} = cartItemDetails
       const onRemoveCartItem = () => {
         removeCartItem(id)
+        updecreaseCount(price * quantity)
       }
       // TODO: Update the functionality to increment and decrement quantity of the cart item
 
